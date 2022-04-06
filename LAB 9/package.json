@@ -1,0 +1,18 @@
+{
+  "name": "cs-546-lab9",
+  "version": "1.0.0",
+  "description": "mylab9",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev":"nodemon app.js"
+  },
+  "author": "Sahil Mahendra Mody 20007262",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "handlebars": "^4.7.7",
+    "nodemon": "^2.0.15"
+  }
+}
