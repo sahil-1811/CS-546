@@ -1,0 +1,14 @@
+{
+  "name": "lab4",
+  "version": "1.0.0",
+  "description": "my lab4 assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Mody Sahil Mahendra 20007262",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^4.3.1"
+  }
+}

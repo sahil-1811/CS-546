@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 15pt;
+}
+
+body {
+    background: lightblue;
+    font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
+}
+
+article {
+    max-width: 85%;
+    margin: auto;
+}
+section{
+    max-width: 85%;
+    margin: auto;
+}
+header {
+    border-bottom: 1px solid white;
+}
+
+.error {
+    font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
+    color: green;
+}
+.show-not-found {
+    font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
+    color: red;
+}

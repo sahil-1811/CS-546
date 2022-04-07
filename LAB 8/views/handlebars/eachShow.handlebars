@@ -1,0 +1,51 @@
+<article>
+     <h1>{{title}}</h1>
+     {{#if path}}
+     <img alt="{{name}}" src="{{path.medium}}">  <!-- an img which the src is set to the value read from image.medium -->
+      {{else}}
+      <img alt="No Image" src="https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-23.jpg">
+      {{/if}}
+     <p>{{description}}</p>
+   
+     <dl>
+        <dt>Language</dt>
+           {{#if language}}
+             <dd>{{language}}</dd>
+         {{else}}
+            <dd>N/A</dd>
+         {{/if}}
+         <dt>Genres</dt>
+         {{#if genre}}
+         <dd>
+            <ul>
+               {{#each genre}}
+               <li>{{this}}</li>
+               {{/each}}
+            </ul>
+         </dd>
+         {{else}}
+         <dd>N/A</dd>
+         {{/if}}
+         <dt>Average Rating:</dt>
+         {{#if rating}}
+             <dd>{{rating}}</dd>
+         {{else}}
+            <dd>N/A</dd>
+         {{/if}}
+         <dt>Network</dt>
+         {{#if network}}
+         <dd>{{network.name}}</dd>
+         {{else}}
+         <dd>N/A</dd>
+         {{/if}}
+        
+         <dt>Summary</dt>
+         {{#if Summary}}
+         <dd>{{{Summary}}}</dd>
+         {{else}}
+         <dd>N/A</dd>
+         {{/if}}
+
+     </dl>
+     <a href="/">Make another search</a>
+     </article>
