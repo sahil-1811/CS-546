@@ -11,3 +11,4 @@ Further the Labs are categorized as:
 - LAB 8 - CSS, HTML Forms(Handlebars), HTML Templating Review
 - LAB 9 - Front End JavaScript and Client-Side Form Validation
 - LAB 10 - Login System using Middlewares
+- LAB 11 - Creating a Show-Finder application using AJAX
